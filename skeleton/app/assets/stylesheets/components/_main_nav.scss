@@ -1,0 +1,62 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.left-nav > ul,
+.right-nav > ul {
+    display: flex;
+    align-items: center;
+    // font-family: nyt-franklin;
+
+}
+
+.left-nav > ul > li {
+     margin: 14px;
+}
+
+.right-nav > ul > li {
+    margin: 2px;
+}
+
+.right-nav > ul > li > button {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+   background-color: lightgrey;
+}
+
+
+.main-nav button:hover {
+	background-color: blue; 
+}
+
+.main-nav span:hover {
+	background-color:lightgrey; 
+}
+
+
+.left-nav span {
+
+
+}
+
+.gear {
+     position: relative;
+}
+
+
+.right-nav i {
+    margin: 5px;
+    font-size: 15px;
+   
+}
